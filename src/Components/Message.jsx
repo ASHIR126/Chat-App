@@ -9,7 +9,7 @@ const style = {
 };
 
 const Message = ({ message }) => {
-  const messageClass = 
+  const messageClass =  
   message.uid === auth.currentUser.uid
   ? `${style.sent}`
   : `${style.received}`
